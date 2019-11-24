@@ -1,0 +1,598 @@
+﻿  DXUT.cpp
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55840): message : 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55849): message : 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55858): message : 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55867): message : 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55876): message : 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55885): message : 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55894): message : 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55909): message : 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55918): message : 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55927): message : 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55936): message : 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55945): message : 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55954): message : 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55964): message : 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55973): message : 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55983): message : 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55992): message : 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56002): message : 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56011): message : 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56020): message : 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56030): message : 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56039): message : 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56279): message : 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56288): message : 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTexture.h(25,38): warning C4244: '인수': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTexture.h(25,24): warning C4244: '인수': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimator2D.h(39,29): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimator3D.h(39,30): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<CTransform>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :             T=CTransform
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(32): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::list<CObject *,std::allocator<_Ty>>'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(32): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(32): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(32): message :             _Ty=CObject *
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(32): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :             T=CTransform
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<CTransform>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :             T=CTransform
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(42): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUT.cpp(696,131): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUT.cpp(696,187): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUT.cpp(697,135): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUT.cpp(697,195): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUT.cpp(4960,1): warning C4996: 'GetVersionExW': deprecated로 선언되었습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\sysinfoapi.h(396): message : 'GetVersionExW' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUT.cpp(5327,51): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUT.cpp(5327,40): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Lib\FMod\inc\fmod_errors.h(20,20): warning C4505: 'FMOD_ErrorString': 참조되지 않은 지역 함수를 제거했습니다.
+  CAnimation2D.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+  CAnimator2D.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation2D.cpp(59): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<CSpriteRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation2D.cpp(59): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation2D.cpp(59): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation2D.cpp(59): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation2D.cpp(59): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimator2D.cpp(23,37): warning C4267: '=': 'size_t'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CBackground.cpp
+  CBoundBullet.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimator2D.cpp(33,18): warning C4244: '=': 'UINT'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<CEffect>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :             T=CEffect
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :             T=CEffect
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(147): message :         ]
+  CBox.cpp
+  CBoxCollider3D.cpp
+  cBullet.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<CEffect>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :             T=CEffect
+C:\Users\d\Desktop\WHOAMI_1 (1)\CBoundBullet.cpp(41): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(34): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(42,51): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(34,44): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(19): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::AddComponent<CSpriteRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(19): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(19): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(19): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(19): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :             T=CBoxCollider2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         ]
+  CCollider2D.cpp
+  CCollider3D.cpp
+  CEffect.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(21): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::GetComponent<CBoxCollider2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(21): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(21): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(21): message :             T=CBoxCollider2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\cBullet.cpp(21): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(16): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::GetComponent<CAnimation2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(16): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(16): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(16): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(16): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         ]
+  CEnemy01.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(22): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::AddComponent<CSpriteRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(22): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(22): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(22): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEffect.cpp(22): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(26,39): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(27,58): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(48): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<CSpriteRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(48): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(48): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(48): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(48): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+  CEnemy01Movement.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(51): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<CRigidBody2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(51): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(51): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(51): message :             T=CRigidBody2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01.cpp(51): message :         ]
+  CEnemy02.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy01Movement.cpp(25,52): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(15,39): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(16,58): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(36): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<CSpriteRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(36): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(36): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(36): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(36): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         ]
+  CEnemy02Bullet.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(29): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::GetComponent<CAnimation2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(29): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(29): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(29): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02.cpp(29): message :         ]
+  CEnemyBase.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemy02Bullet.cpp(19,99): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(24): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::GetComponent<CAnimation2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(24): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(24): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(24): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(24): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(53): message :         ]
+  cGun.cpp
+  CLineRenerer.cpp
+  CLoadScene.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(42): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::AddComponent<CSpriteRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(42): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(42): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(42): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CEnemyBase.cpp(42): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(147,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(156,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(157,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(169,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(172,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(182,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(185,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(188,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(201,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(210,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(211,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239: 비표준 확장이 사용됨: '인수': '_Ty'에서 'ImageLoadData &'(으)로의 변환입니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:             _Ty=ImageLoadData
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): message : 비const 참조는 lvalue에만 바인딩할 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Invoker_functor::_Call<void(__cdecl *)(ImageLoadData &),_Ty>(_Callable &&,_Ty &&) noexcept(false)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :             _Ty=ImageLoadData,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :             _Callable=void (__cdecl *)(ImageLoadData &)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::invoke<void(__cdecl *)(ImageLoadData &),ImageLoadData>(_Callable &&,ImageLoadData &&) noexcept(false)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :             _Callable=void (__cdecl *)(ImageLoadData &)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message : 컴파일되는 함수 템플릿 인스턴스화 'unsigned int std::thread::_Invoke<_Tuple,0,1>(void *) noexcept'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :             _Tuple=_Tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(56): message : 컴파일되는 함수 템플릿 인스턴스화 'unsigned int (__stdcall *std::thread::_Get_invoke<_Tuple,0,1>(std::integer_sequence<unsigned int,0,1>) noexcept)(void *)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(79): message : 컴파일되는 함수 템플릿 인스턴스화 'std::thread::thread<void(__cdecl *)(ImageLoadData &),_Ty&,void>(_Fn &&,_Ty &)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(79): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(79): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(79): message :             _Ty=ImageLoadData,
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(79): message :             _Fn=void (__cdecl *)(ImageLoadData &)
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(79): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239: 비표준 확장이 사용됨: '인수': '_Ty'에서 'MeshLoadData &'(으)로의 변환입니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:             _Ty=MeshLoadData
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): warning C4239:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571,1): message : 비const 참조는 lvalue에만 바인딩할 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Invoker_functor::_Call<void(__cdecl *)(MeshLoadData &),_Ty>(_Callable &&,_Ty &&) noexcept(false)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :             _Ty=MeshLoadData,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :             _Callable=void (__cdecl *)(MeshLoadData &)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(1571): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::invoke<void(__cdecl *)(MeshLoadData &),MeshLoadData>(_Callable &&,MeshLoadData &&) noexcept(false)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :             _Callable=void (__cdecl *)(MeshLoadData &)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(40): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message : 컴파일되는 함수 템플릿 인스턴스화 'unsigned int std::thread::_Invoke<_Tuple,0,1>(void *) noexcept'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :             _Tuple=_Tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(48): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(56): message : 컴파일되는 함수 템플릿 인스턴스화 'unsigned int (__stdcall *std::thread::_Get_invoke<_Tuple,0,1>(std::integer_sequence<unsigned int,0,1>) noexcept)(void *)'에 대한 참조를 확인하세요.
+  CMainScene.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(105): message : 컴파일되는 함수 템플릿 인스턴스화 'std::thread::thread<void(__cdecl *)(MeshLoadData &),_Ty&,void>(_Fn &&,_Ty &)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(105): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(105): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(105): message :             _Ty=MeshLoadData,
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(105): message :             _Fn=void (__cdecl *)(MeshLoadData &)
+C:\Users\d\Desktop\WHOAMI_1 (1)\CLoadScene.cpp(105): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(47,50): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(55,50): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(63,50): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(21,8): warning C4189: 'Move': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(141,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(44): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::AddComponent<CSpriteRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(44): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(44): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(44): message :             T=CSpriteRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(44): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+  CMeshRenderer.cpp
+  컴파일하고 있습니다...
+  CModel.cpp
+  CModelManager.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(135): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<CEnemy02>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(135): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(135): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(135): message :             T=CEnemy02
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainScene.cpp(135): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CModelManager.cpp(80,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  COBJLoader.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,59): warning C4840: variadic 함수의 인수로서 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 클래스를 이식 불가능하게 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,59): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'은(는) trivial이 아닙니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2230,5): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,59): message : 생성자와 소멸자가 호출되지 않습니다. 클래스의 비트 복사가 인수로 전달됩니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(4440,17): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,48): warning C4840: variadic 함수의 인수로서 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 클래스를 이식 불가능하게 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,48): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'은(는) trivial이 아닙니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2230,5): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,48): message : 생성자와 소멸자가 호출되지 않습니다. 클래스의 비트 복사가 인수로 전달됩니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(4440,17): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,13): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'const std::string'입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(71,13): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'std::string'입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\COBJLoader.cpp(384,1): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CollisionData.cpp
+  CPhysic.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : 'sscanf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(22,13): warning C4244: '초기화 중': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(24,14): warning C4244: '초기화 중': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(112): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(113): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(114): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(115): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(126): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(127): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(128): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(129): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(139): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(140): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(141): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(142): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(152): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(158): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(164): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(112,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(112,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(113,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(113,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(114,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(114,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(115,36): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(126,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(126,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(127,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(127,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(128,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(128,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(129,36): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(139,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(139,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(140,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(140,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(141,38): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(141,57): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(142,36): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(152,39): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(158,39): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+  CPlayerMovement.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPhysic.cpp(164,39): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPlayerMovement.cpp(67,1): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPlayerMovement.cpp(129,8): warning C4189: 'p_Bullet': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<T>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CComponent.h(47): message :         ]
+  CRay.cpp
+  CRenderer2D.cpp
+  CRenderer3D.cpp
+  CRigidBody3D.cpp
+  CSound.cpp
+  CSoundManager.cpp
+  CSphere.cpp
+  CSphereCollider3D.cpp
+  CSpriteRenderer.cpp
+  CTerrain.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPlayerMovement.cpp(25): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CComponent::GetComponent<CAnimation2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPlayerMovement.cpp(25): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPlayerMovement.cpp(25): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPlayerMovement.cpp(25): message :             T=CAnimation2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CPlayerMovement.cpp(25): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(38,25): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(67,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(67,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(67,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(68,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(68,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(68,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(69,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(69,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(69,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(70,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(70,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(70,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(82,16): error C3861: 'lerp': 식별자를 찾을 수 없습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(82,37): error C3861: 'lerp': 식별자를 찾을 수 없습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(91,16): error C3861: 'lerp': 식별자를 찾을 수 없습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(91,43): error C3861: 'lerp': 식별자를 찾을 수 없습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(173,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(242,49): warning C4244: '=': 'int'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(243,56): warning C4244: '=': 'int'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(244,57): warning C4244: '=': 'int'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(246,57): warning C4244: '=': 'int'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(247,57): warning C4244: '=': 'int'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(248,61): warning C4244: '=': 'int'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(270,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(272,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(290,16): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(291,16): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(292,16): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(295,16): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CText.cpp
+  CTitleScene.cpp
+  INGAMEUI.cpp
+  Math.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CTerrain.cpp(296,41): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Math.cpp(33,57): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Math.cpp(34,57): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Math.cpp(41,52): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Math.cpp(42,52): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Math.cpp(51,14): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Math.cpp(52,14): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  CAnimation3D.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\Math.cpp(58,12): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+  CAnimator3D.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation3D.cpp(69): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<CMeshRenderer>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation3D.cpp(69): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation3D.cpp(69): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation3D.cpp(69): message :             T=CMeshRenderer
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimation3D.cpp(69): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimator3D.cpp(24,35): warning C4267: '=': 'size_t'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CBoxCollider2D.cpp
+  CCameraManager.cpp
+  CComponent.cpp
+  CImageManager.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CAnimator3D.cpp(33,19): warning C4244: '=': 'int'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(143,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(185,44): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(215): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(215,44): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(257): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(257,48): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(272): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+  CInputManager.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CImageManager.cpp(272,48): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CInputManager.cpp(11,47): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CInputManager.cpp(11,23): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CInputManager.cpp(65,25): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CMainGame.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CInputManager.cpp(65,19): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CMainGame.cpp(61,1): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  CObject.cpp
+  CObjectManager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1822): message : 'swprintf' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(145,37): warning C4239: 비표준 확장이 사용됨: '초기화 중': 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>'에서 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>> &'(으)로의 변환입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(145,37): warning C4239:         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(145,37): warning C4239:         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(145,37): warning C4239:             _Ty=CObject *
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(145,37): warning C4239:         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(145,37): message : 비const 참조는 lvalue에만 바인딩할 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(151,42): warning C4456: 'iter' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(145,13): message : 'iter' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,37): warning C4239: 비표준 확장이 사용됨: '초기화 중': 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>'에서 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>> &'(으)로의 변환입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,37): warning C4239:         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,37): warning C4239:         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,37): warning C4239:             _Ty=CObject *
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,37): warning C4239:         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,37): message : 비const 참조는 lvalue에만 바인딩할 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,41): warning C4239: 비표준 확장이 사용됨: '초기화 중': '_InIt'에서 '_InIt &'(으)로의 변환입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,41): warning C4239:         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,41): warning C4239:         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,41): warning C4239:             _InIt=std::_List_iterator<std::_List_val<std::_List_simple_types<CObject *>>>
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,41): warning C4239:         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,41): message : 비const 참조는 lvalue에만 바인딩할 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(240,46): warning C4239: 비표준 확장이 사용됨: '초기화 중': 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<CObject *>>>'에서 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<CObject *>>> &'(으)로의 변환입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(240,46): message : 비const 참조는 lvalue에만 바인딩할 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(247,48): warning C4456: 'iter' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,13): message : 'iter' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(251,50): warning C4456: 'iter2' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,15): message : 'iter2' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(261,48): warning C4456: 'iter' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,13): message : 'iter' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(265,50): warning C4456: 'iter2' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,15): message : 'iter2' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(272,48): warning C4456: 'iter' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,13): message : 'iter' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(276,50): warning C4456: 'iter2' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(187,15): message : 'iter2' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(297,41): warning C4456: 'iter' 선언은 이전 로컬 선언을 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(159,13): message : 'iter' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(181,8): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(211,11): warning C4189: 'long2': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(206,11): warning C4189: 'long1': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(183): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<CBoxCollider2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(183): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(183): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(183): message :             T=CBoxCollider2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.cpp(183): message :         ]
+  CRect.cpp
+  CRigidBody2D.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(17): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::list<CRenderer3D *,std::allocator<_Ty>>'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(17): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(17): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(17): message :             _Ty=CRenderer3D *
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObjectManager.h(17): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\CRigidBody2D.cpp(20,70): warning C4244: '+=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): warning C4127: 조건식이 상수입니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CObject.h(71,1): message : 'if constexpr' 문을 대신 사용해 보세요.
+  CScene.cpp
+  CSceneManager.cpp
+  CTexture.cpp
+  CTimeManager.cpp
+  CTimer.cpp
+  CTransform.cpp
+  DXUTenum.cpp
+  DXUTmisc.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\CRigidBody2D.cpp(61): message : 컴파일되는 함수 템플릿 인스턴스화 'T *CObject::GetComponent<CBoxCollider2D>(void)'에 대한 참조를 확인하세요.
+C:\Users\d\Desktop\WHOAMI_1 (1)\CRigidBody2D.cpp(61): message :         with
+C:\Users\d\Desktop\WHOAMI_1 (1)\CRigidBody2D.cpp(61): message :         [
+C:\Users\d\Desktop\WHOAMI_1 (1)\CRigidBody2D.cpp(61): message :             T=CBoxCollider2D
+C:\Users\d\Desktop\WHOAMI_1 (1)\CRigidBody2D.cpp(61): message :         ]
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Core\DXUTmisc.cpp(1263,1): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+  컴파일하고 있습니다...
+  DXUTcamera.cpp
+  DXUTgui.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\sysinfoapi.h(387): message : 'GetVersionExA' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Optional\DXUTgui.cpp(6846,37): warning C4458: 'iTexture' 선언은 클래스 멤버를 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Optional\DXUTgui.h(109,10): message : 'CDXUTElement::iTexture' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Optional\DXUTgui.cpp(6860,34): warning C4458: 'iFont' 선언은 클래스 멤버를 숨깁니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Optional\DXUTgui.h(110,10): message : 'CDXUTElement::iFont' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Optional\DXUTgui.cpp(6860,74): warning C4458: 'dwTextFormat' 선언은 클래스 멤버를 숨깁니다.
+  DXUTres.cpp
+  DXUTsettingsdlg.cpp
+  SDKmesh.cpp
+  SDKmisc.cpp
+  Main.cpp
+C:\Users\d\Desktop\WHOAMI_1 (1)\DXUT\Optional\DXUTgui.h(111,11): message : 'CDXUTElement::dwTextFormat' 선언을 참조하십시오.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Main.cpp(150,85): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\d\Desktop\WHOAMI_1 (1)\Main.cpp(150,64): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
